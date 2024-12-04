@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "frontend/app/(tabs)/index.jsx", "frontend/app/(tabs)/categories.jsx", "frontend/app/_layout.jsx", "frontend/app/+not-found.jsx"  ]
+}
